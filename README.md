@@ -23,10 +23,9 @@ The script performs multiple tasks:
 
 ## Steps
 
-### 1. Mount Google Drive:
+### 1. Unrip and Load the Images:
 ```python
-from google.colab import drive
-drive.mount('/content/drive')
+load_and_unzio('path_to_zipfile')
 ```
 
 ### 2. Load the Pre-trained Model:
